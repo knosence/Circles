@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+#circle {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle1 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align:center">
+  <h1>Circles</h1>
+  <center>
+  <span class="circle" onclick="enlargeCirc()"
+        id="circ1"></span>
+  <span class="circle1" onclick="enlargeCirc()"
+        id="circ1"></span>
+  <span class="circle2" onclick="enlargeCirc()"
+        id="circ1"></span>
+  </center>
+ 
+ <script langage="Javascript">
+    function enlargeCirc () {
+    var divbal = document.getElementById("circle");
+    divbal.style.width = divbal.offsetWidth + 30 + "px";
+    divbal.style.height = divbal.offsetHeight + 30 + "px";
+    }
+	
+    </script>
+<div onclick="enlargeCirc();" id="circle"></div>
+<
+  </html>

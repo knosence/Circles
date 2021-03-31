@@ -1,0 +1,26 @@
+* To run the html
+** cd into the file by using:
+#+BEGIN_SRC bash
+cd circle
+
+#+END_SRC
+
+** use the command `open` to open the Enlargecircle.html file:
+#+BEGIN_SRC bash
+open Enlargecircle.html
+
+#+END_SRC
+
+* To run the React
+** cd into the `Circle` then into the `react-circles`
+#+BEGIN_SRC bash
+cd Circle/react-circles
+
+#+END_SRC
+
+**  _make sure you have node install_ before using npm's `npm start`
+
+#+BEGIN_SRC bash
+npm start
+
+#+END_SRC
